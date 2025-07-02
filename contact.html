@@ -102,6 +102,11 @@
     .imgR.animate {
         animation: slideInRight 2s;
     }
+    #map {
+    height: 100%;
+    width: 100%;
+}
+
 </style>
 
 <body>
@@ -124,7 +129,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
+            <div class="col-md-6 wow animate__fadeInLeft mb-3" data-wow-duration="2s" data-wow-delay="0s">
                 <div class="card p-3 border border-3 rounded-5" style="background-color: transparent;">
                     <h2 class="text-center">聯絡我們</h2>
                     <form>
@@ -145,8 +150,8 @@
                 </div>
 
             </div>
-            <div class="col-md-6 wow animate__fadeInRightBig" data-wow-duration="2s" data-wow-delay="0s">
-                 <div id="map" style="height:100%" class="rounded rounded-5"></div>
+            <div class="col-md-6 wow animate__fadeInRightBig" style="height: 480px;" data-wow-duration="2s" data-wow-delay="0s">
+                 <div id="map" class="rounded rounded-5"></div>
             </div>
         </div>
     </div>
