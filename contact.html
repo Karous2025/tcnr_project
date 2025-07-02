@@ -172,6 +172,8 @@
         $("#send-btn").on("click", function (e) {
             e.preventDefault()
             Swal.fire("已收到您的訊息，我們會盡快回覆，謝謝!");
+            $("input").val(""); 
+            $("textarea").val(""); 
         })
 
     </script>
