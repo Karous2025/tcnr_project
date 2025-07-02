@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/my.css">
+</head>
+<style>
+    body {
+        transition: all 0.3s;
+        background-image: url("/images/bernard-hermant-PrZw3_3xUxI-unsplash.jpg");
+    }
+
+    .bg1 {
+        transition: all 0.3s;
+        background-image: url("/images/stephen-rolt-uTs7MdHsCbY-unsplash.jpg");
+    }
+
+    .bg2 {
+        transition: all 0.3s;
+        background-image: url("/images/thomas-griesbeck-BS-Uxe8wU5Y-unsplash.jpg");
+    }
+
+    .bg3 {
+        transition: all 0.3s;
+        background-image: url("/images/thomas-vimare-IZ01rjX0XQA-unsplash.jpg");
+    }
+
+    .bg4 {
+        transition: all 0.3s;
+        background-image: url("/images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg");
+    }
+
+    .bg5 {
+        transition: all 0.3s;
+        background-image: url("/images/augustine-wong-LfU6_b3Oj4E-unsplash.jpg");
+    }
+
+    #nav div a {
+        position: relative;
+    }
+
+    #nav div a:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background-color: darkseagreen;
+    }
+
+    #nav div a:hover:after {
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+    #main-title {
+        position: relative;
+    }
+
+    #main-title:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0px;
+        width: 100%;
+        height: 5px;
+        background-color: white;
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(200%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .imgR {
+        background-image: url(images/food1.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 80%;
+        aspect-ratio: 3/2;
+        display: none;
+        position: relative;
+        left: 0;
+    }
+
+    .imgR.animate {
+        animation: slideInRight 2s;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-end mb-5 mt-3">
+            <div class="col-md-10 me-5">
+                <div class="row justify-content-end my-3" id="nav">
+                    <div class="col-md-2 h2 ms-3 link1">
+                        <a href="index.html" class="text-decoration-none text-dark ">HOME</a>
+                    </div>
+                    <div class="col-md-2 h2 ms-3 link2">
+                        <a href="about.html" class="text-decoration-none text-dark ">ABOUT</a>
+                    </div>
+                    <div class="col-md-2 h2 ms-3 link3">
+                        <a href="contact.html" class="text-decoration-none text-dark ">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            
+        </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+
+       
+    </script>
+</body>
+
+</html>

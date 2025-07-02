@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+        body{
+            font-family: "Noto Sans TC", serif;
+        }
+        :root {
+            --basecolor001:red;
+            --basecolor002:pink;
+            --basecolor003:purple;
+            --basecolor004:indigo;
+            --basecolor005:blue;
+            --basecolor006:lightblue;
+            --basecolor007:cyan;
+            --basecolor009:teal;
+            --basecolor010:green;
+            --basecolor011:lightgreen;
+            --basecolor012:limegreen;
+            --basecolor013:lime;
+            --basecolor014:yellow;
+            --basecolor015:lightyellow;
+            --basecolor016:orange;
+            --basecolor017:brown;
+            --basecolor018:gray;
+            --basecolor019:lightgray;
+            --basecolor020:lightseagreen;
+            --basecolor021:tan;
+
+            --mycolor001: #e1dcd9; 
+            --mycolor002: #8f8681;
+            --mycolor003: #a67f78;
+            --mycolor004: #32435f;
+            --mycolor005: #d1dddb;
+            --mycolor006: #85b8cb;
+            --mycolor007: #1d6a96;
+            --mycolor008: #283b42;
+            --mycolor009: #d5d2c1;
+            --mycolor010: #bd8e62;
+            --mycolor011: #a46843;
+            --mycolor012: #370d00;
+            --mycolor013: #e3a6a1;
+            --mycolor014: #bc5f6a;
+            --mycolor015: #19b3b1;
+            --mycolor016: #034b61;
+            --mycolor017: #552583;
+            --mycolor018: #ffcc00;
+           
+           
+            --mycolor019: #ffffff;
+            --mycolor020: #000000;
+
+            --textcolor001: #000000;
+            --textcolor002: #ffffff;
+            --textcolor003: #666666;
+
+        }
+        .fw-100{ font-weight: 100;}
+        .fw-200{ font-weight: 200;}
+        .fw-300{ font-weight: 300;}
+        .fw-400{ font-weight: 400;}
+        .fw-500{ font-weight: 500;}
+        .fw-600{ font-weight: 600;}
+        .fw-700{ font-weight: 700;}
+        .fw-800{ font-weight: 800;}
+        .fw-900{ font-weight: 900;}
+
+        .bg-cover{
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bg-color001{
+            background-color: var(--mycolor001);
+        }
+        .bg-color002{
+            background-color: var(--mycolor002);
+        }
+        .bg-color003{
+            background-color: var(--mycolor003);
+        }
+        .bg-color004{
+            background-color: var(--mycolor004);
+        }
+        .bg-color005{
+            background-color: var(--mycolor005);
+        }
+        .bg-color006{
+            background-color: var(--mycolor006);
+        }
+        .bg-color007{
+            background-color: var(--mycolor007);
+        }
+        .bg-color008{
+            background-color: var(--mycolor008);
+        }
+        .bg-color009{
+            background-color: var(--mycolor009);
+        }
+        .bg-color010{
+            background-color: var(--mycolor010);
+        }
+        .bg-color011{
+            background-color: var(--mycolor011);
+        }
+        .bg-color012{
+            background-color: var(--mycolor012);
+        }
+        .bg-red{
+            background-color:red;
+        }
+        .bg-pink{
+            background-color:pink;
+        }
+        .bg-purple{
+            background-color:purple;
+        }
+        .bg-indigo{
+            background-color:indigo;
+        }
+        .bg-blue{
+            background-color:blue;
+        }
+        .bg-lightblue{
+            background-color:lightblue;
+        }
+        .bg-skyblue{
+            background-color:skyblue;
+        }
+        .bg-cyan{
+            background-color:cyan;
+        }
+        .bg-teal{
+            background-color:teal;
+        }
+        .bg-green{
+            background-color:green;
+        }
+        .bg-lightgreen{
+            background-color:lightgreen;
+        }
+        .bg-limegreen{
+            background-color:limegreen;
+        }
+        .bg-lime{
+            background-color:lime;
+        }
+        .bg-yellow{
+            background-color:yellow;
+        }
+        .bg-yellowgreen{
+            background-color:yellowgreen;
+        }
+        .bg-lightyellow{
+            background-color:lightyellow;
+        }
+        .bg-yellow{
+            background-color:orange;
+        }
+        .bg-tomoto{
+            background-color:tomato;
+        }
+        .bg-brown{
+            background-color:brown;
+        }
+        .bg-tan{
+            background-color:tan;
+        }
+        .bg-black{
+            background-color:black;
+        }
+        .bg-white{
+            background-color:white;
+        }
+        .bg-gray{
+            background-color:gray;
+        }
+        .bg-darkgray{
+            background-color:darkgray;
+        }
+        .bg-lightgray{
+            background-color:lightgray;
+        }
+
+        .bg-darkblue500{
+            background-color: #092943;
+        }
+        .bg-darkblue400{
+            background-color: #0c3759;
+        }
+        .bg-darkblue300{
+            background-color: #0f456f;
+        }
+        .bg-darkblue200{
+            background-color: #125285;
+        }
+        .bg-darkblue100{
+            background-color: #15609b;
+        }
+        .bg-green500{
+            background-color: #2b662e;
+        }
+        .bg-green400{
+            background-color: #3d9241;
+        }
+        .bg-green300{
+            background-color: #65b168;
+        }
+        .bg-green200{
+            background-color: #98cb9a;
+        }
+        .bg-green100{
+            background-color: #cbe5cc;
+        }
+        .bg-yellowgreen500{
+            background-color: #8c8c00;
+        }
+        .bg-yellowgreen400{
+            background-color: #a3a300;
+        }
+        .bg-yellowgreen300{
+            background-color: #baba00;
+        }
+        .bg-yellowgreen200{
+            background-color: #d1d100;
+        }
+        .bg-yellowgreen100{
+            background-color: #e8e800;
+        }
+        .bg-orange500{
+            background-color: #e65100;
+        }
+        .bg-orange400{
+            background-color: #ff6d00;
+        }
+        .bg-orange300{
+            background-color: #ff9100;
+        }
+        .bg-orange200{
+            background-color: #ffab40;
+        }
+        .bg-orange100{
+            background-color: #ffd180;
+        }
+        .bg-pink500{
+            background-color: #870d36;
+        }
+        .bg-pink400{
+            background-color: #d81b60;
+        }
+        .bg-pink300{
+            background-color: #e91e63;
+        }
+        .bg-pink200{
+            background-color: #ec407a;
+        }
+        .bg-pink100{
+            background-color: #f49cba;
+        }
+        .bg-darkgreen500{
+            background-color: #3a3a0e;
+        }
+        .bg-darkgreen400{
+            background-color: #3a3a0e;
+        }
+        .bg-darkgreen300{
+            background-color: #575614;
+        }
+        .bg-darkgreen200{
+            background-color: #656417;
+        }
+        .bg-darkgreen100{
+            background-color: #73731b;
+        }
+        .text-darkblue{
+            color:#092943;
+        }
+        .text-red{
+            color:red;
+        }
+        .text-yellow{
+            color:yellow;
+        }
+        .text-green{
+            color:green;
+        }
+        .text-tomato{
+            color:tomato;
+        }
+        .text-tan{
+            color:tan;
+        }
+        .text-yellogreen{
+            color:yellowgreen;
+        }
+        .text-skyblue{
+            color:skyblue;
+        }
+        .text-pink300{
+            color:#e91e63;
+        }
+        .text-brown{
+            color:brown;
+        }
+        .text-indigo{
+            color:indigo;
+        }
+
+        .btn-yellowgreen{
+            color:white;
+            background-color: yellowgreen;
+        }
+        .btn-yellowgreen:hover{
+            color:white;
+            background-color: green;
+        }
